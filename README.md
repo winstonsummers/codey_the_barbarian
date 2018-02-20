@@ -1,7 +1,7 @@
 ## Initial Goals
 
-	[]take input to make "dictionary"
-	[]generate "stories" even if they don't makes sense
+	[x]take input to make "dictionary"
+	[x]generate "stories" even if they don't makes sense
 	[]refine generation repeatedly until they do make sense
 
 
