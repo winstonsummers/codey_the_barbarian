@@ -69,7 +69,7 @@ def main():
 		#read the file
 		print("This may take a minute...")
 		book = open(inputFile, 'r')
-		content = book.read().replace('\n', ' ').replace('\u2014', ' ').replace('\"', ' ').replace('\u2013', ' ')
+		content = book.read().replace('\n', ' ').replace('\u2014', ' ').replace('\"', ' ').replace('\u2013', ' ').replace('.', '').replace(',', '')
 		dictionary = learn(dictionary, content)
 		updateFile(dictionaryFile, dictionary)
 		book.close()
