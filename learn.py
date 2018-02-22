@@ -67,7 +67,12 @@ def main():
 			updateFile(dictionaryFile, dictionary)
 	else:
 		#read the file
-		print("coming soon")
+		print("This may take a minute...")
+		book = open(inputFile, 'r')
+		content = book.read().replace('\n', ' ').replace('\u2014', ' ').replace('\"', ' ').replace('\u2013', ' ')
+		dictionary = learn(dictionary, content)
+		updateFile(dictionaryFile, dictionary)
+		book.close()
 
 main()
 
