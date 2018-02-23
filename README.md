@@ -28,6 +28,6 @@ Further more, I hope you enjoy Codey the Barbarian as much as I have!
 
 ## Resources
 
-https://en.wikipedia.org/wiki/Markov_chain
-https://en.wikipedia.org/wiki/N-gram
+https://en.wikipedia.org/wiki/Markov_chain </br>
+https://en.wikipedia.org/wiki/N-gram </br>
 https://www.youtube.com/watch?v=L97yQMT0jn8
