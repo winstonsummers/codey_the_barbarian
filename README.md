@@ -11,6 +11,16 @@ Below I have my goals as I have reached them so far; aswell as my primary resour
 Further more, I hope you enjoy Codey the Barbarian as much as I have!
 
 
+## Commands
+
+	"python3 learn.py dictionary.json Conan.txt"
+		This tells Codey to learn from Conan.txt and put it into dictionary.json. If it can't find dictionary.json it will create one. You can change either of these parameters to different files if you want Codey to from a different source or store what it learns somewhere else.
+
+	"pyhton3 generate.py 40 dictionary.json"
+		This tells Codey to write something that is 40 units long based on what it stored in dictionary.json. You can change the length(the integer) to however long or short you would like and if you have saved something you learned in a different .json file you can use that.
+
+	Happy Writing!
+
 ## Initial Goals
 
 	[x]take input to make "dictionary"
