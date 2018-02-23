@@ -29,9 +29,9 @@ def loadDictionary(filename):
 
 def learn(dict, input):
 	tokens = input.split(" ")
-	for word in range(0, len(tokens)-order-1):
+	for word in range(0, len(tokens)-order-1-order):
 		currentWord = " ".join(tokens[word:word+order])
-		nextWord = tokens[word+1+order]
+		nextWord = " ".join(tokens[word+1+order:word+1+order+order])
 
 		if currentWord not in dict:
 			#create new word in dictionary
