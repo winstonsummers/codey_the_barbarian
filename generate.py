@@ -33,6 +33,7 @@ def pickRandom(dict):
 def getNextWord(lastWord, dict):
 	if lastWord not in dict:
 		#pick new random state
+		#print("dead end, lastWord: ", lastWord)
 		newWord = pickRandom(dict)
 		return newWord
 	else:
