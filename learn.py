@@ -2,7 +2,7 @@ import sys
 import os.path
 import json
 
-order = 6
+order = 3
 
 def readArguments():
 	numArugments = len(sys.argv) - 1
@@ -29,9 +29,9 @@ def loadDictionary(filename):
 
 def learn(dict, input):
 	tokens = input.split(" ")
-	for word in range(0, len(tokens)-order-1-order):
+	for word in range(0, len(tokens)-order):
 		currentWord = " ".join(tokens[word:word+order])
-		nextWord = " ".join(tokens[word+order:word+1+order+order])
+		nextWord = " ".join(tokens[word+order:word+1+order])
 
 		if currentWord not in dict:
 			#create new word in dictionary
